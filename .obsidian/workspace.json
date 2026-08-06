@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -228,8 +228,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "3818c1796caa5784",
+  "active": "7e56eb6d741f64f9",
   "lastOpenFiles": [
+    "README.md",
     "6. Collections/2. Sequence Indexing.md",
     "6. Collections/1. Introduction to Lists.md",
     "5. Functions/3. Defining Functions.md",
@@ -245,7 +246,6 @@
     "2. Variables and Data Types/3. User Input.md",
     "2. Variables and Data Types/2. Data Types.md",
     "2. Variables and Data Types/1. Variables.md",
-    "README.md",
     "6. Collections",
     "5. Functions",
     "4. Control Flow",
