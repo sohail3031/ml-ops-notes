@@ -1,52 +1,115 @@
 # MLOps Learning Notes
 
-A structured collection of my personal notes, code examples, and learning resources as I progress through Python, Machine Learning, and MLOps.
+A structured collection of my personal notes, code examples, and learning resources as I progress through **Python, Machine Learning, Deep Learning, and MLOps**.
 
 The goal of this repository is to build a comprehensive knowledge base while documenting my learning journey from Python fundamentals to production-ready MLOps systems.
 
-> **Note:** These notes are written for learning and revision purposes. They are based on concepts learned from various educational resources and rewritten in my own words with additional explanations, examples, and improvements.
+> **Note**
+> These notes are written for learning and revision purposes. They are based on concepts learned from various educational resources and rewritten in my own words with additional explanations, examples, and improvements.
 
 ---
 
-## Repository Structure
+# Repository Structure
 
-```
+```text
 mlops-notes/
 │
 ├── Python/
 │   ├── 01. Python Fundamentals/
+│   │   ├── 01. Introduction to Python.md
+│   │   ├── 02. Your First Python Program.md
+│   │   └── 03. Printing Multiple Lines.md
+│   │
 │   ├── 02. Variables and Data Types/
+│   │   ├── 01. Variables.md
+│   │   ├── 02. Data Types.md
+│   │   ├── 03. User Input.md
+│   │   └── 04. Numeric Input and Compound Assignment.md
+│   │
 │   ├── 03. Operators and Expressions/
+│   │   ├── 01. Arithmetic Operators and Expressions.md
+│   │   ├── 02. Comparison Operators.md
+│   │   └── 03. Boolean Data Types and Logical Operators.md
+│   │
 │   ├── 04. Control Flow/
+│   │   ├── 01. If Statements.md
+│   │   ├── 02. If-Else Statements.md
+│   │   └── 03. While Loops.md
+│   │
 │   ├── 05. Functions/
+│   │   ├── 01. Built-in Functions.md
+│   │   ├── 02. The print() Function.md
+│   │   └── 03. Defining Functions.md
+│   │
 │   └── 06. Collections/
+│       ├── 01. Introduction to Lists.md
+│       └── 02. Sequence Indexing.md
 ```
 
 ---
 
-## Learning Roadmap
+# Learning Roadmap
 
-### Python
+## Python
 
-- [x] Python Fundamentals
-- [x] Variables and Data Types
-- [x] Operators and Expressions
-- [x] Control Flow
-- [x] Functions
-- [x] Collections
+### Python Fundamentals
+
+- [x] Introduction to Python
+- [x] Your First Python Program
+- [x] Printing Multiple Lines
+
+### Variables and Data Types
+
+- [x] Variables
+- [x] Data Types
+- [x] User Input
+- [x] Numeric Input and Compound Assignment
+
+### Operators and Expressions
+
+- [x] Arithmetic Operators and Expressions
+- [x] Comparison Operators
+- [x] Boolean Data Types and Logical Operators
+
+### Control Flow
+
+- [x] If Statements
+- [x] If-Else Statements
+- [x] While Loops
+
+### Functions
+
+- [x] Built-in Functions
+- [x] The `print()` Function
+- [x] Defining Functions
+
+### Collections
+
+- [x] Introduction to Lists
+- [x] Sequence Indexing
+
+### Upcoming Python Topics
+
 - [ ] Strings
 - [ ] Tuples
 - [ ] Dictionaries
 - [ ] Sets
+- [ ] Loops (Advanced)
 - [ ] Modules and Packages
 - [ ] File Handling
-- [ ] Object-Oriented Programming
 - [ ] Exception Handling
+- [ ] Functions (Advanced)
+- [ ] Object-Oriented Programming
 - [ ] Iterators and Generators
 - [ ] Decorators
+- [ ] Context Managers
 - [ ] Virtual Environments
+- [ ] Testing
+- [ ] Python Best Practices
 
-### Data Science
+---
+
+## Data Science
 
 - [ ] NumPy
 - [ ] Pandas
@@ -54,15 +117,20 @@ mlops-notes/
 - [ ] Statistics
 - [ ] Probability
 
-### Machine Learning
+---
 
+## Machine Learning
+
+- [ ] Data Preprocessing
+- [ ] Feature Engineering
 - [ ] Supervised Learning
 - [ ] Unsupervised Learning
 - [ ] Model Evaluation
-- [ ] Feature Engineering
 - [ ] Scikit-learn
 
-### Deep Learning
+---
+
+## Deep Learning
 
 - [ ] Neural Networks
 - [ ] TensorFlow
@@ -70,7 +138,9 @@ mlops-notes/
 - [ ] Computer Vision
 - [ ] Natural Language Processing
 
-### MLOps
+---
+
+## MLOps
 
 - [ ] Git
 - [ ] Linux
@@ -82,27 +152,29 @@ mlops-notes/
 - [ ] FastAPI
 - [ ] CI/CD
 - [ ] Model Deployment
-- [ ] Monitoring
-- [ ] Cloud Platforms (AWS, Azure, GCP)
+- [ ] Model Monitoring
+- [ ] AWS
+- [ ] Azure
+- [ ] Google Cloud Platform
 
 ---
 
-## Notes Format
+# Notes Format
 
 Each note includes:
 
-- Concept explanations
+- Clear concept explanations
 - Code examples
 - Important observations
 - Common pitfalls
 - Best practices
-- Summary and key takeaways
+- Key takeaways
 
-The notes are written in Markdown and optimized for **Obsidian**.
+All notes are written in **Markdown** and optimized for **Obsidian**.
 
 ---
 
-## Why This Repository?
+# Why This Repository?
 
 This repository serves as my:
 
@@ -114,7 +186,9 @@ This repository serves as my:
 
 ---
 
-## Technologies Covered
+# Technologies Covered
+
+Current and upcoming technologies include:
 
 - Python
 - SQL
@@ -139,15 +213,14 @@ More technologies will be added as I continue learning.
 
 ---
 
-## Contributions
+# Contributions
 
 This repository is primarily a personal learning project.
 
-If you notice an error or have suggestions for improving the notes, feel free to open an issue or submit a pull request.
+If you find an error or have suggestions for improving the notes, feel free to open an issue or submit a pull request.
 
 ---
 
-## Connect
+# ⭐ Support
 
-If these notes help you, consider giving the repository a ⭐.
-It motivates me to continue documenting my learning journey.
+If you find these notes useful, consider giving this repository a **star**. It motivates me to continue documenting and sharing my learning journey.
