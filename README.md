@@ -4,7 +4,7 @@ A structured collection of my personal notes, code examples, and learning resour
 
 The goal of this repository is to build a comprehensive knowledge base while documenting my learning journey from Python fundamentals to production-ready MLOps systems.
 
-> [!NOTE]  
+> **Note**
 > These notes are written for learning and revision purposes. They are based on concepts learned from various educational resources and rewritten in my own words with additional explanations, examples, and improvements.
 
 ---
@@ -149,6 +149,59 @@ mlops-notes/
     
 -  Python Best Practices
     
+=======
+- [x] Introduction to Python
+- [x] Your First Python Program
+- [x] Printing Multiple Lines
+
+### Variables and Data Types
+
+- [x] Variables
+- [x] Data Types
+- [x] User Input
+- [x] Numeric Input and Compound Assignment
+
+### Operators and Expressions
+
+- [x] Arithmetic Operators and Expressions
+- [x] Comparison Operators
+- [x] Boolean Data Types and Logical Operators
+
+### Control Flow
+
+- [x] If Statements
+- [x] If-Else Statements
+- [x] While Loops
+
+### Functions
+
+- [x] Built-in Functions
+- [x] The `print()` Function
+- [x] Defining Functions
+
+### Collections
+
+- [x] Introduction to Lists
+- [x] Sequence Indexing
+
+### Upcoming Python Topics
+
+- [ ] Strings
+- [ ] Tuples
+- [ ] Dictionaries
+- [ ] Sets
+- [ ] Loops (Advanced)
+- [ ] Modules and Packages
+- [ ] File Handling
+- [ ] Exception Handling
+- [ ] Functions (Advanced)
+- [ ] Object-Oriented Programming
+- [ ] Iterators and Generators
+- [ ] Decorators
+- [ ] Context Managers
+- [ ] Virtual Environments
+- [ ] Testing
+- [ ] Python Best Practices
 
 ---
 
@@ -164,6 +217,12 @@ mlops-notes/
     
 -  Probability
     
+=======
+- [ ] NumPy
+- [ ] Pandas
+- [ ] Data Visualization
+- [ ] Statistics
+- [ ] Probability
 
 ---
 
@@ -232,6 +291,45 @@ mlops-notes/
 
 ---
 
+=======
+- [ ] Data Preprocessing
+- [ ] Feature Engineering
+- [ ] Supervised Learning
+- [ ] Unsupervised Learning
+- [ ] Model Evaluation
+- [ ] Scikit-learn
+
+---
+
+## Deep Learning
+
+- [ ] Neural Networks
+- [ ] TensorFlow
+- [ ] PyTorch
+- [ ] Computer Vision
+- [ ] Natural Language Processing
+
+---
+
+## MLOps
+
+- [ ] Git
+- [ ] Linux
+- [ ] Docker
+- [ ] Kubernetes
+- [ ] MLflow
+- [ ] DVC
+- [ ] Airflow
+- [ ] FastAPI
+- [ ] CI/CD
+- [ ] Model Deployment
+- [ ] Model Monitoring
+- [ ] AWS
+- [ ] Azure
+- [ ] Google Cloud Platform
+
+---
+
 # Notes Format
 
 Each note includes:
@@ -248,6 +346,8 @@ Each note includes:
     
 - Key takeaways
     
+=======
+- Key takeaways
 
 All notes are written in **Markdown** and optimized for **Obsidian**.
 
