@@ -1,6 +1,6 @@
 # MLOps Learning Notes
 
-A structured collection of my personal notes, code examples, and learning resources as I progress through **Python, Machine Learning, Deep Learning, and MLOps**.
+A structured collection of my personal notes, code examples, and learning resources as I progress through Python, Machine Learning, Deep Learning, and MLOps.
 
 The goal of this repository is to build a comprehensive knowledge base while documenting my learning journey from Python fundamentals to production-ready MLOps systems.
 
@@ -9,42 +9,77 @@ The goal of this repository is to build a comprehensive knowledge base while doc
 
 ---
 
-# Repository Structure
+## Repository Structure
+
+# MLOps Learning Notes
+
+A structured collection of my personal notes, code examples, and learning resources as I progress through Python, Machine Learning, Deep Learning, and MLOps.
+
+The goal of this repository is to build a comprehensive knowledge base while documenting my learning journey from fundamentals to production-ready MLOps systems.
+
+> [!NOTE]
+> These notes are written for learning and revision purposes. They are based on concepts learned from various educational resources and rewritten in my own words with additional explanations, examples, and improvements.
+
+---
+
+## Repository Structure
 
 ```text
 mlops-notes/
 │
-├── Python/
-│   ├── 01. Python Fundamentals/
-│   │   ├── 01. Introduction to Python.md
-│   │   ├── 02. Your First Python Program.md
-│   │   └── 03. Printing Multiple Lines.md
+├── 01. python-programming/
+│   ├── 01. fundamentals/
+│   │   ├── 01. introduction-to-python.md
+│   │   ├── 02. your-first-python-program.md
+│   │   └── 04. printing-multiple-lines.md
 │   │
-│   ├── 02. Variables and Data Types/
-│   │   ├── 01. Variables.md
-│   │   ├── 02. Data Types.md
-│   │   ├── 03. User Input.md
-│   │   ├── 04. Numeric Input and Compound Assignment.md
-│   │   └── 05. String Literals and Multiline Strings.md
+│   ├── 02. variables-and-data-types/
+│   │   ├── 01. variables.md
+│   │   ├── 02. data-types.md
+│   │   └── 04. string-literals-and-multiline-strings.md
 │   │
-│   ├── 03. Operators and Expressions/
-│   │   ├── 01. Arithmetic Operators and Expressions.md
-│   │   ├── 02. Comparison Operators.md
-│   │   └── 03. Boolean Data Types and Logical Operators.md
+│   ├── 03. input-and-operators/
+│   │   ├── 01. user-input.md
+│   │   ├── 02. numeric-input-and-compound-assignment.md
+│   │   ├── 03. arithmetic-operators-and-expressions.md
+│   │   ├── 03. boolean-data-type-and-logical-operators.md
+│   │   └── 04. comparison-operators.md
 │   │
-│   ├── 04. Control Flow/
-│   │   ├── 01. If Statements.md
-│   │   ├── 02. If-Else Statements.md
-│   │   └── 03. While Loops.md
+│   ├── 04. control-flow-and-loops/
+│   │   ├── 01. if-statement.md
+│   │   ├── 02. if-else-statements.md
+│   │   └── 03. while-loop.md
 │   │
-│   ├── 05. Functions/
-│   │   ├── 01. Built-in Functions.md
-│   │   ├── 02. The print() Function.md
-│   │   └── 03. Defining Functions.md
+│   ├── 05. data-structures/
+│   │   ├── 01. introduction-to-lists.md
+│   │   └── 02. sequence-indexing.md
 │   │
-│   └── 06. Collections/
-│       ├── 01. Introduction to Lists.md
-│       └── 02. Sequence Indexing.md
+│   └── 06. advanced-basics/
+│       ├── 01. built-in-functions.md
+│       ├── 03. defining-functions.md
+│       └── 03. print-function.md
+│
+├── 02. operating-systems-and-linux/
+│   ├── 01. operating-systems.md
+│   └── 02. introduction-to-linux.md
+│
+├── 03. containers-and-docker/
+│   ├── 01. introduction-to-containers.md
+│   ├── 01. yaml-fundamentals.md
+│   ├── 02. introduction-to-container-orchestration.md
+│   ├── 02. introduction-to-docker.md
+│   └── 03. docker-images-and-dockerfiles.md
+│
+└── 04. kubernetes/
+    ├── 01. yaml-fundamentals.md
+    ├── 02. introduction-to-container-orchestration.md
+    ├── 03. introduction-to-kubernetes.md
+    ├── 04. kubernetes-cluster-components.md
+    ├── 05. kubernetes-deployment-options.md
+    ├── 06. kubernetes-workload-controllers.md
+    ├── 07. kubernetes-services.md
+    ├── 08. kubernetes-ingress.md
+    └── 09. kubernetes-stateful-applications.md```
 ```
 
 ---
@@ -149,7 +184,6 @@ mlops-notes/
     
 -  Python Best Practices
     
-=======
 - [x] Introduction to Python
 - [x] Your First Python Program
 - [x] Printing Multiple Lines
@@ -203,9 +237,11 @@ mlops-notes/
 - [ ] Testing
 - [ ] Python Best Practices
 
----
 
-## Data Science
+* **Operators and Expressions**
+* [x] Arithmetic Operators and Expressions
+* [x] Comparison Operators
+* [x] Boolean Data Types and Logical Operators
 
 -  NumPy
     
@@ -217,7 +253,6 @@ mlops-notes/
     
 -  Probability
     
-=======
 - [ ] NumPy
 - [ ] Pandas
 - [ ] Data Visualization
@@ -226,72 +261,32 @@ mlops-notes/
 
 ---
 
-## Machine Learning
+### Data Science
 
--  Data Preprocessing
-    
--  Feature Engineering
-    
--  Supervised Learning
-    
--  Unsupervised Learning
-    
--  Model Evaluation
-    
--  Scikit-learn
-    
+* **NumPy & Pandas**
+* **Data Visualization**
+* **Statistics & Probability**
 
 ---
 
-## Deep Learning
+### Machine Learning
 
--  Neural Networks
-    
--  TensorFlow
-    
--  PyTorch
-    
--  Computer Vision
-    
--  Natural Language Processing
-    
+* **Data Preprocessing & Feature Engineering**
+* **Supervised & Unsupervised Learning**
+* **Model Evaluation**
+* **Scikit-learn**
 
 ---
 
-## MLOps
+### Deep Learning
 
--  Git
-    
--  Linux
-    
--  Docker
-    
--  Kubernetes
-    
--  MLflow
-    
--  DVC
-    
--  Airflow
-    
--  FastAPI
-    
--  CI/CD
-    
--  Model Deployment
-    
--  Model Monitoring
-    
--  AWS
-    
--  Azure
-    
--  Google Cloud Platform
-    
+* **Neural Networks**
+* **TensorFlow & PyTorch**
+* **Computer Vision (CV)**
+* **Natural Language Processing (NLP)**
 
 ---
 
-=======
 - [ ] Data Preprocessing
 - [ ] Feature Engineering
 - [ ] Supervised Learning
@@ -332,7 +327,7 @@ mlops-notes/
 
 # Notes Format
 
-Each note includes:
+## Notes Format
 
 - Clear concept explanations
     
@@ -346,83 +341,38 @@ Each note includes:
     
 - Key takeaways
     
-=======
 - Key takeaways
 
-All notes are written in **Markdown** and optimized for **Obsidian**.
+* Clear concept explanations
+* Code examples
+* Important observations
+* Common pitfalls
+* Best practices
+* Key takeaways
 
 ---
 
-# Why This Repository?
+## Why This Repository?
 
 This repository serves as my:
 
-- Personal knowledge base
-    
-- Revision material
-    
-- Interview preparation resource
-    
-- Reference for future projects
-    
-- Public documentation of my learning journey
-    
+* Personal knowledge base
+* Revision material
+* Interview preparation resource
+* Reference for future projects
+* Public documentation of my learning journey
 
 ---
 
-# Technologies Covered
+## Technologies Covered
 
-Current and upcoming technologies include:
-
-- Python
-    
-- SQL
-    
-- Git
-    
-- Linux
-    
-- Docker
-    
-- Kubernetes
-    
-- NumPy
-    
-- Pandas
-    
-- Scikit-learn
-    
-- TensorFlow
-    
-- PyTorch
-    
-- MLflow
-    
-- DVC
-    
-- Airflow
-    
-- FastAPI
-    
-- AWS
-    
-- Azure
-    
-- Google Cloud Platform
-    
-
-More technologies will be added as I continue learning.
+`Python` • `SQL` • `Git` • `Linux` • `Docker` • `Kubernetes` • `NumPy` • `Pandas` • `Scikit-learn` • `TensorFlow` • `PyTorch` • `MLflow` • `DVC` • `Airflow` • `FastAPI` • `AWS` • `Azure` • `GCP`
 
 ---
 
-# Contributions
+## Contributions
 
-This repository is primarily a personal learning project.
+This repository is primarily a personal learning project. If you find an error or have suggestions for improving the notes, feel free to open an issue or submit a pull request.
 
-If you find an error or have suggestions for improving the notes, feel free to open an issue or submit a pull request.
 
----
 
-# ⭐ Support
-
-If you find these notes useful, consider giving this repository a **star**. It motivates me to continue documenting and sharing my learning journey.
